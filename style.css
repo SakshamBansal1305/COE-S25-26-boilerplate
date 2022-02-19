@@ -15,6 +15,7 @@ body {
   height: 100vh;
   background: url("https://i1.faceprep.in/ProGrad/sky-moon-bg.png");
   background-size: 100% 100%;
+  text-align: center;
 }
 
 /* Styling the submit button */
@@ -98,4 +99,19 @@ input[type="number"],input[type="email"],select{
   height: 40px;
   border: 1px solid black;
   padding: 0 5px;
-  }
+}
+
+button{
+  background-color: darkblue;
+  width: 140px;
+  height: 30px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  border: 3px solid red;
+}
+
+a{
+  color: aqua;
+  text-decoration: none;
+  font-weight: bolder;
+}
